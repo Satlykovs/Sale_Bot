@@ -5,7 +5,8 @@ from telebot.types import ReplyKeyboardMarkup
 from telebot.types import InlineKeyboardButton, InlineKeyboardMarkup, ReplyKeyboardRemove
 from gazpacho import Soup, get
 from youtubesearchpython import VideosSearch
-TOKEN = '6006612958:AAEoHenPn-U4fYtw6ZEzyUl9s1EoojzesN0'
+from Token import Token_bot
+TOKEN = Token_bot
 IN_MAIN_MENU = False
 IN_INFO = False
 MCI_list = []
